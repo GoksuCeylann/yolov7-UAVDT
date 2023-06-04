@@ -131,7 +131,7 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inferen
 
 <div align="center">
     <a href="./">
-        <img src="./figure/horses_prediction.jpg" width="59%"/>
+        <img src="WhatsApp Görsel 2023-06-04 saat 23.22.39.jpg>
     </a>
 </div>
 
