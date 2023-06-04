@@ -60,7 +60,6 @@ nc: 4
 
 # class names
 names: ['car', 'bus', 'van', 'others']
-
 '''
 
 ## Testing
