@@ -20,11 +20,11 @@ MS COCO
 
 | Model | Train Set | Test Set | mAP@.5 | mAP@.5:.95: | # of Epochs |
 | :-- | :-: | :-: | :-: | :-: | :-: |
-| **YOLOv7** | UAVDT | UAVDT |**51.4%** | **69.7%** | 10 |
-| **YOLOv7** | MS COCO + UAVDT | UAVDT | **53.1%** | **71.2%** | 10 |
-|  |  |  |  |  |  | |
-| **YOLOv7** | UAVDT | UAVDT |**54.9%** | **72.6%** | 10 |
-| **YOLOv7** | MS COCO + UAVDT | UAVDT | **56.0%** | **73.5%** | 10 |
+| **YOLOv7** (Anchor 1) | UAVDT | UAVDT |**24.9%** | **9.7%** | 10 |
+| **YOLOv7** (Anchor 1) | MS COCO + UAVDT | UAVDT | **26.0%** | **10.6%** | 10 |
+|  |  |  |  |  |  |
+| **YOLOv7** (Anchor 2) | UAVDT | UAVDT |**23.4%** | **8.7%** | 10 |
+| **YOLOv7** (Anchor 2) | MS COCO + UAVDT | UAVDT | **25.9%** | **10.9%** | 10 |
 
 ## Installation
 
