@@ -102,10 +102,6 @@ python train.py --workers 8 --device 0 --batch-size 4 --data data/uavdt.yaml --i
 python train_aux.py --workers 8 --device 0 --batch-size 4 --data data/uavdt.yaml --img 1280 1280 --cfg cfg/training/yolov7.yaml --weights 'yolov7.pt' --name yolov7-w6-custom --hyp data/hyp.scratch.custom.yaml
 ```
 
-## Re-parameterization
-
-See [reparameterization.ipynb](tools/reparameterization.ipynb)
-
 ## Inference
 
 On video:
