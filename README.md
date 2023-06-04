@@ -50,11 +50,8 @@ cd /yolov7
 
 ## Prepare the YAML file for the dataset
 
-''' shell
-train: dataset/images/train  
-val: dataset/images/val  
-test: dataset/images/test
-'''
+``` shell
+# train p5 models
 
 # number of classes
 nc: 4
