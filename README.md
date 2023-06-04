@@ -18,13 +18,13 @@ Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-t
 
 MS COCO
 
-| Model | Train Set | Test Set |AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | AP<sub>75</sub><sup>test</sup> | # of Epochs |
-| :-- | :-: | :-: | :-: | :-: | :-: | :-: |
-| **YOLOv7** | UAVDT | UAVDT |**51.4%** | **69.7%** | **55.9%** | 10 |
-| **YOLOv7** | MS COCO + UAVDT | UAVDT | **53.1%** | **71.2%** | **57.8%** | 10 |
+| Model | Train Set | Test Set | mAP@.5 | mAP@.5:.95: | # of Epochs |
+| :-- | :-: | :-: | :-: | :-: | :-: |
+| **YOLOv7** | UAVDT | UAVDT |**51.4%** | **69.7%** | 10 |
+| **YOLOv7** | MS COCO + UAVDT | UAVDT | **53.1%** | **71.2%** | 10 |
 |  |  |  |  |  |  | |
-| **YOLOv7** | UAVDT | UAVDT |**54.9%** | **72.6%** | **60.1%** | 10 |
-| **YOLOv7** | MS COCO + UAVDT | UAVDT | **56.0%** | **73.5%** | **61.2%** | 10 |
+| **YOLOv7** | UAVDT | UAVDT |**54.9%** | **72.6%** | 10 |
+| **YOLOv7** | MS COCO + UAVDT | UAVDT | **56.0%** | **73.5%** | 10 |
 
 ## Installation
 
