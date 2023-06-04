@@ -49,8 +49,19 @@ cd /yolov7
 </details>
 
 ## Prepare the YAML file for the dataset
-''' shell
 
+''' shell
+# UAVDT.yaml
+train: dataset/images/train  
+val: dataset/images/val  
+test: dataset/images/test
+'''
+
+# number of classes
+nc: 4
+
+# class names
+names: ['car', 'bus', 'van', 'others']
 '''
 
 ## Testing
