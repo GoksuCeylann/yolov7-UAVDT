@@ -51,13 +51,16 @@ cd /yolov7
 ## Prepare the YAML file for the dataset
 
 ``` shell
-# train p5 models
+train: dataset/images/train  
+val: dataset/images/val  
+test: dataset/images/test
 
 # number of classes
 nc: 4
 
 # class names
 names: ['car', 'bus', 'van', 'others']
+
 '''
 
 ## Testing
