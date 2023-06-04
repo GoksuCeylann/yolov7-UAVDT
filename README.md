@@ -68,8 +68,9 @@ bash scripts/get_coco.sh
 
 Single GPU training
 
-Use cfg/training/yolov7.yaml for anchor 1
-Use cfg/training/yolov7new.yaml for anchor 2
+Use cfg/training/yolov7.yaml for **anchor 1**
+
+Use cfg/training/yolov7new.yaml for **anchor 2**
 
 ``` shell
 # train p5 models
