@@ -51,7 +51,6 @@ cd /yolov7
 ## Prepare the YAML file for the dataset
 
 ''' shell
-# UAVDT.yaml
 train: dataset/images/train  
 val: dataset/images/val  
 test: dataset/images/test
